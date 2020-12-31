@@ -1,6 +1,31 @@
 body {
     background-color: #fff;
 }
+h2 {
+  display: block;
+  font-size: 2.2em;
+  margin-top: 1em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: lighter;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  
+}
+
+button.hola{
+    width: 200px;
+    height: 40px;
+    border: solid 1px #7052CB;
+    border-radius: 2px;
+    background-color: #7052CB;
+    font-size: 13px;
+    color: #ffffff;
+}
 
 .no-display {
     display: none;
