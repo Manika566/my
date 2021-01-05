@@ -5,6 +5,8 @@ RUN apt-get update && apt-get install -y git python3-dev gcc \
 
 COPY requirements.txt .
 
+RUN pip install torch==1.7.0+cu101 torchvision==0.8.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+
 RUN pip install --upgrade -r requirements.txt
 
 COPY app app/
